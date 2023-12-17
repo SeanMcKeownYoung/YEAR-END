@@ -27,7 +27,7 @@
 		table { border-collapse: collapse !important; }
 		body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
 		h1, h2, h3, h4, h5, h6, p { margin: 0 !important; }
-		h1 {font-size: 40px !important;}
+		h1 {font-size: 40px;}
 		h2 {font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 22px;}
 		p {font-family: Arial, Helvetica, sans-serif; font-weight: 200; font-size: 15px;}
 
@@ -140,7 +140,7 @@
 		}
 
 		/* HIDE ON DESKTOP */
-		.desktopOff { max-height: 0px !important;; font-size: 0px !important;; display: none !important;; }
+		.desktopOff { max-height: 0px; font-size: 0px; display: none; }
 
 
 		/* LIGHT/DARK MODE CLASSES */
@@ -150,10 +150,10 @@
 		.lightMode { display: block !important; max-height:none !important; font-size:10px !important; }
 
 		/* LIGHT COLOR SCHEME */
-		.standardMode { background-color: #dbdbdb !important;; }
-		.footerMode {background-color: #ffffff !important;; color: #1e1e1e !important;;}
-		.textMode {color: #4a4a4a !important;}
-		.accentMode {color:#df1c4e !important;}
+		.standardMode { background-color: #dbdbdb; }
+		.footerMode {background-color: #ffffff; color: #1e1e1e;}
+		.textMode {color: #4a4a4a}
+		.accentMode {color:#df1c4e}
 
 		:root {
 			color-scheme: light dark;
@@ -178,10 +178,10 @@
 			/*DARK MODE RESET STYLES*/
 			.lightMode { width: 0px !important; display: none !important; }
 			.darkMode { display: block !important; max-height:none !important; font-size:10px !important; }
-			.standardMode { background-color: #313131 !important; }
-			.footerMode {background-color: #1e1e1e !important; color: #ffffff !important;;}
-			.textMode {color: #ffffff !important;}
-			.accentMode {color: #df1c4e !important;}
+			.standardMode { background-color: #313131; }
+			.footerMode {background-color: #1e1e1e; color: #ffffff;}
+			.textMode {color: #ffffff;}
+			.accentMode {color: #df1c4e;}
 		}
 		/*INSERT ADDITIONAL DARK MODE SYTLES ABOVE THIS LINE*/
 		em {
@@ -203,7 +203,6 @@ mso-style-textfill-type:gradient;
 mso-style-textfill-fill-gradientfill-stoplist:"0 \#2b313f -1 100000\,100000 \#2b313f -1 100000"; 
 color:#e6e6e3 !important; 
 } 
-.desktopOff {mso-hide: all !important; display: none !important; max-height: 0px !important; font-size: 0px !important;}
 </style> 
 <![endif]-->
 
@@ -281,11 +280,9 @@ color:#e6e6e3 !important;
 					<tr>
 						<td align="left" valign="top">
 						<!-- USE ONLY 1 <H1> ELEMENT, AS THE FIRST TEXT ELEMENT WHENEVER POSSIBLE -->
-							<span>
 							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline;" class="textMode"> Read it online</h1> &nbsp;
-							<div class="desktopOff mobileOn" style="mso-hide: all; display: none"><br></div>
+							<div class="desktopOff mobileOn" style="line-height: 0.8;"><br></div>
 							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline; color: #df1c4e;"class="accentMode">December&#8203;&nbsp;&#8203;31.</h1>
-						</span>
 							</td>
 					</tr>
 				</table>
@@ -368,7 +365,7 @@ color:#e6e6e3 !important;
 					<!-- HEADLINE -->
 							<tr>
 								<td class="left-align w-pad" align="left" valign="top">
-							<h2 class="textMode" style="display: inline-block; padding-bottom: 20px;">FREE for subscribers.</h2>
+							<h2 class="textMode" style="display: inline-block;">FREE for subscribers.</h2>
 								</td>
 							</tr>
 
@@ -405,7 +402,7 @@ color:#e6e6e3 !important;
 							<tr>
 								<!-- PADDING ON THIS <td> MAKES WIDTH RESPONSIVE TO LENGTH OF BUTTON TEXT -->
 								<td style="padding: 12px 20px 12px 20px; background-color: #df1c4e;" align="left">
-									<a rel="noopener" href="https://myaccount.mlive.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Activate account!</a>
+									<a rel="noopener" href="https://enewsAA.mlive.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Activate account!</a>
 								</td>
 							</tr>
 				<!-- ROW SPACER -->
