@@ -20,9 +20,6 @@
 		body, table, td, a, p { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 		table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 		img { -ms-interpolation-mode: bicubic; }
-		@media screen and (min-width: 639px)  {
-        .mobile-break { display: none; }
-    }
 
 
 		/* RESET STYLES */
@@ -143,7 +140,7 @@
 		}
 
 		/* HIDE ON DESKTOP */
-		.desktopOff { max-height: 0px !important; font-size: 0px !important;; display: none !important; }
+		.desktopOff { max-height: 0px !important;; font-size: 0px !important;; display: none !important;; }
 
 
 		/* LIGHT/DARK MODE CLASSES */
@@ -228,7 +225,7 @@ color:#e6e6e3 !important;
 		max-width:0px;
 		opacity:0;
 		overflow:hidden;">
-		2023. A Year in Review. Subscriber-exclusive online-only section coming Dec. 23.
+		2023. A Year in Review. Subscriber-exclusive online-only section coming Dec. 31.
 		</td>
 	</tr>
 	<!-- END PREHEADER -->
@@ -252,13 +249,13 @@ color:#e6e6e3 !important;
 				<!-- LOGO BAR  -->
 
 					<!-- ADD IMG RESIZER CLASS TO THIS <td>, NOT <img> -->
-						<tr>
-							<td class="imgresize100 img" align="left" valign="top">
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_Oregonian_light.png" height="50" width="auto" class="lightimage" style="margin:0; padding:0; border:none; display:block; max-width: 400px;" border="0" alt="The Oregonian Online" >
-							<div class="imgresize100 img darkimageWrapper" style="mso-hide: all; display: none">
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_Oregonian_dark.png" height="50" width="auto" class="darkimage" style="margin:0; padding:0; border:none; display:none; " border="0" alt="The Oregonian Online">
-							</td>
-						</tr>
+					<tr>
+						<td class="imgresize90 img" align="left" valign="top">
+							<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MI_AnnArbor_light_5.png" height="60" width="auto" class="lightimage" style="margin:0; padding:0; border:none; display:block; max-width: 400px;" border="0" alt="The Ann Arbor News Online" >
+						<div class="imgresize90 img darkimageWrapper" style="mso-hide: all; display: none">
+							<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MI_AnnArbor_dark_3.png" height="60" width="auto" class="darkimage" style="margin:0; padding:0; border:none; display:none;" border="0" alt="The Ann Arbor News Online">
+						</td>
+					</tr>
 				</table>
 
 
@@ -270,7 +267,7 @@ color:#e6e6e3 !important;
 	<!-- END LOGO -->
 
 
-<!-- CAMPAIGN BODY START - END AT 390 -->		
+<!-- CAMPAIGN BODY START -->		
 	<!-- ! PRIMARY HEADLINE ! USE ONLY ONCE PER EMAIL ! -->
 	<table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e6e6e3" class="standardMode">
 		<!-- SPACER -->
@@ -285,10 +282,12 @@ color:#e6e6e3 !important;
 						<td align="left" valign="top">
 						<!-- USE ONLY 1 <H1> ELEMENT, AS THE FIRST TEXT ELEMENT WHENEVER POSSIBLE -->
 							<span>
-							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline;" class="textMode"> Read it online</h1> &nbsp;
-							<div class="desktopOff mobileOn" style="mso-hide: all; display: none"><br></div>
-							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline; color: #df1c4e;"class="accentMode">December&#8203;&nbsp;&#8203;31.</h1>
+							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline; line-height: 1;" class="textMode"> Read&nbsp;it&nbsp;online&nbsp;</h1> 
+							<h1 style="font-family: 'farnham headline', Georgia, serif; display: inline; color: #df1c4e; line-height: 1;"class="accentMode">December&#8203;&nbsp;&#8203;31.</h1>
 						</span>
+						<tr>
+							<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+						</tr>
 							</td>
 					</tr>
 				</table>
@@ -296,9 +295,7 @@ color:#e6e6e3 !important;
 				</td>
 			</tr>
 		<!-- SPACER -->
-			<tr>
-				<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
-			</tr>
+
 		</table>
 	<!-- END PRIMARY HEADLINE ! USE ONLY ONCE ! -->
 
@@ -348,10 +345,7 @@ color:#e6e6e3 !important;
 						<td class="stack imgresize90 img w-pad2"  width="425" align="left" valign="top">
 						<!-- FILE DIMENSIONS SHOULD BE DOUBLE FOR RETINA DISPLAY
 							width="" attribute must be set -->
-							<!--<![endif]-->
-							<!--[if gte mso 9]>
-							<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/YE-ANIMATION-FINAL.png">
-							<![endif]-->
+
 						<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/YE-ANIMATION-FINAL.gif" width="425" style="margin:0; padding:0; border:none; display:block; filter: drop-shadow(-5px 2px 5px rgba(0, 0, 0, 0.55));" border="0" alt="Cover" />
 						</td>
 					<!-- COLUMN SPACER -->
@@ -408,7 +402,7 @@ color:#e6e6e3 !important;
 							<tr>
 								<!-- PADDING ON THIS <td> MAKES WIDTH RESPONSIVE TO LENGTH OF BUTTON TEXT -->
 								<td style="padding: 12px 20px 12px 20px; background-color: #df1c4e;" align="left">
-									<a rel="noopener" href="https://myaccount.oregonlive.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Activate account!</a>
+									<a rel="noopener" href="https://myaccount.mlive.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Activate account!</a>
 								</td>
 							</tr>
 				<!-- ROW SPACER -->
@@ -436,7 +430,7 @@ color:#e6e6e3 !important;
 						<tr>
 							<!-- PADDING ON THIS <td> MAKES WIDTH RESPONSIVE TO LENGTH OF BUTTON TEXT -->
 							<td style="padding: 12px 20px 12px 20px; background-color: #df1c4e;" align="left">
-								<a rel="noopener" href="https://www.theoregonian.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Explore now!</a>
+								<a rel="noopener" href="https://enewsAA.mlive.com" target="_blank" style="font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: regular; color: #ffffff; text-decoration: none; display: inline-block;">Explore now!</a>
 							</td>
 						</tr>
 			<!-- ROW SPACER -->
@@ -521,7 +515,7 @@ color:#e6e6e3 !important;
 								<td align="left" valign="top">
 									<p style="font-family: 'Arial', sans-serif; font-size: 13.5px; line-height: 1.4;" class="footerMode">Having trouble viewing this email? <a rel="noopener" href="{view_url}" target="_blank" style="text-decoration:underline;"class="footerMode">View in your browser	
 									<span class="desktopOn mobileOff"><br><br></span></a>
-									To ensure receipt of our emails, please add <a rel="noopener" href="mailto:customercare@sts.oregonlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">customercare@sts.oregonlive.com</a> to your address book or a safe sender list. You received this email because you are a subscriber to <a rel="noopener" href="https://oregonlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">oregonlive.com</a> or The Oregonian.</p>
+									To ensure receipt of our emails, please add <a rel="noopener" href="mailto:customercare@sts.mlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">customercare@sts.mlive.com</a> to your address book or a safe sender list. You received this email because you are a subscriber to <a rel="noopener" href="https://mlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">mlive.com</a> or The Ann Arbor News</p>
 								</td>
 
 							</tr>
@@ -530,28 +524,26 @@ color:#e6e6e3 !important;
 						</td>
 			<!-- END LEFT COLUMN -->
 
-			<!-- COLUMN SPACER -->
-			<td class="stack" width="10" align="center" valign="top" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
+										<!-- COLUMN SPACER -->
+						<td class="stack" width="10" align="center" valign="top" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
 
 			<!-- RIGHT COLUMN -->
 						<td class="stack" width="190" align="center" valign="top">
 
 						<table class="mobile-300" role="presentation" cellpadding="0" cellspacing="0" border="0">
-		<!-- ROW SPACER -->
+			<!-- MOBILE-ONLY SPACER: ADDS SPACE ABOVE CONTACTS LIST -->
 						<tr>
-							<td class="mobile-break" height="20" style="font-size:10px; line-height:1;">&nbsp;</td>
-						</tr>	
-
+							<td class="desktopOff mobileOn" height="20" style="font-size:10px; line-height:1;">&nbsp;</td>
 						</tr>
 					<!-- BODY TEXT -->
 							<tr>
 								<td align="left" valign="top">
                                     <p style="font-family: 'Arial', sans-serif; font-size: 13.5px; line-height: 1.4; color: #000000;">
-                                        <a rel="noopener" href="https://www.oregonlive.com/editors/page/how_to_contact_the_oregonian.html" target="_blank" style="text-decoration:underline;"class="footerMode">Contact Us</a><br>
-                                        <a rel="noopener" href="https://www.oregonlive.com/mobile-device/" target="_blank" style="text-decoration:underline;"class="footerMode">Download our app</a><br>
-                                        <a rel="noopener" href="https://www.oregonlive.com/privacy-policy/" target="_blank" style="text-decoration:underline;"class="footerMode">Privacy policy</a><br>
-                                        <a rel="noopener" href="https://subscription.oregonlive.com/newsletters/" target="_blank" style="text-decoration:underline;"class="footerMode">More newsletters</a><br>
-                                        <a rel="noopener" href="https://myaccount.oregonlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">Manage subscription</a><br>
+                                        <a rel="noopener" href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank" style="text-decoration:underline;"class="footerMode">Contact Us</a><br>
+                                        <a rel="noopener" href="https://www.mlive.com/mobile-device/" target="_blank" style="text-decoration:underline;"class="footerMode">Download our app</a><br>
+                                        <a rel="noopener" href="https://www.mlive.com/privacy-policy/" target="_blank" style="text-decoration:underline;"class="footerMode">Privacy policy</a><br>
+                                        <a rel="noopener" href="https://subscription.mlive.com/newsletters/" target="_blank" style="text-decoration:underline;"class="footerMode">More newsletters</a><br>
+                                        <a rel="noopener" href="https://myaccount.mlive.com" target="_blank" style="text-decoration:underline;"class="footerMode">Manage subscription</a><br>
                                         <a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" style="text-decoration:underline;"class="footerMode">Unsubscribe</a>
                                     </p>
 								</td>
@@ -586,32 +578,29 @@ color:#e6e6e3 !important;
 			<!-- ALIGNMENT TABLE -->
 				<table class="mobile-300" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
 
-
-					
 				<!-- LOGO BAR  -->
 					<!-- ADD IMG RESIZER CLASS TO THIS <td>, NOT <img> -->
 
 
-						<td class="imgresize80h img" align="left" valign="top">
+						<td class="imgresize100h img" align="left" valign="top">
 
 							<div class="lightimageFooter" style="margin:0; padding:0; border:none; display: inline-block;">
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_Oregonian_light.png" height="40" class="lightimageFooter" style="margin:0; padding:0; border:none;" 
-                                alt="The Oregonian Online">
-								<span class="mobileOff desktopOn">&nbsp;&#8203;&nbsp;&#8203;</span>
-
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_COMoregonian%20LIGHT_1.png" height="40" alt="oregonlive.com" >
+								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MI_AnnArbor_light_5.png" height="50" class="lightimageFooter" style="margin:0; padding:0; border:none;" alt="The Ann Arbor News, mlive.com">
+								<span class="mobileOff">&nbsp;&#8203;&nbsp;&#8203;</span>
+								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/mlive_light.png" height="50" alt="The Ann Arbor News, mlive.com" >
 							</div>
 
 							<div class="darkimageWrapperFooter" style="mso-hide: all; display: none">
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_Oregonian_dark.png" height="40" class="darkimageFooter" style="margin:0; padding:0; border:none; display:none;" 
-                                alt="The Oregonian Online">
-								<span class="mobileOff desktopOn">&nbsp;&#8203;&nbsp;&#8203;</span>
-
-								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/OR_COMoregonian%20DARK_1.png" height="40" alt="oregonlive.com" >
+								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MI_AnnArbor_dark_3.png" height="50" class="darkimageFooter" style="margin:0; padding:0; border:none; display:none;" alt="The Ann Arbor News, mlive.com">
+								<span class="mobileOff">&nbsp;&#8203;&nbsp;&#8203;</span>
+								<img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/mlive_dark.png" height="50" alt="The Ann Arbor News, mlive.com" >
 							</div>
 
 							
 						</td>
+
+
+
 
 
                 <!-- ADDRESS -->
@@ -621,8 +610,7 @@ color:#e6e6e3 !important;
 				</tr>
 				<tr>
 					<td align="left" valign="top">
-						<p style="font-family: 'Arial', sans-serif; font-size: 10px; line-height: 1.4; text-transform: uppercase;" > 
-                            1500 SW First Ave. Suite 500, Portland, OR 97201</p>
+						<p style="font-family: 'Arial', sans-serif; font-size: 10px; line-height: 1.4; text-transform: uppercase;" > 111 N Ashley St., Ann Arbor, MI 48104</p>
 					</td>
 				</tr>
 				</table>
